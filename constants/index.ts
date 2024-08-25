@@ -1,7 +1,7 @@
 export const GenderOptions = [
-    'Male',
-    'Female',
-    'Other'
+    'male',
+    'female',
+    'other'
 ];
 
 export const IdentificationTypes = [
@@ -56,3 +56,29 @@ export const Doctors = [
         name: "Hardik Sharma",
     },
 ];
+
+export const PatientFormDefaultValues = {
+    firstName: "",
+    lastName: "",
+    email: "",
+    phone: "",
+    birthDate: new Date(Date.now()),
+    gender: "male" as Gender,
+    address: "",
+    occupation: "",
+    emergencyContactName: "",
+    emergencyContactNumber: "",
+    primaryPhysician: "",
+    insuranceProvider: "",
+    insurancePolicyNumber: "",
+    allergies: "",
+    currentMedication: "",
+    familyMedicalHistory: "",
+    pastMedicalHistory: "",
+    identificationType: "Birth Certificate",
+    identificationNumber: "",
+    identificationDocument: [],
+    treatmentConsent: false,
+    disclosureConsent: false,
+    privacyConsent: false,
+};

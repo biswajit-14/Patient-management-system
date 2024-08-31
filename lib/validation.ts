@@ -116,3 +116,7 @@ export function getAppointmentSchema(type: string) {
             return ScheduleAppointmentSchema;
     }
 }
+
+export const AppointmentFormValidation = z.object({
+
+})

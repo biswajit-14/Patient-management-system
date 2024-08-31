@@ -31,7 +31,6 @@ export const RegisterForm = ({ user }: { user: User }) => {
             name: "",
             email: "",
             phone: "",
-            gender: "male" as const, // Add this line to fix the error
         },
     });
 
